@@ -21,6 +21,10 @@
       become: true
       yum:
         name:
+          - net-tools.x86_64
+          - telnet
+          - epel-release
+          - python-pip
           - git
           - sysstat
           - nmon
