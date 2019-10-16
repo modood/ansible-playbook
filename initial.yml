@@ -16,6 +16,7 @@
           - git
           - sysstat
           - nmon
+          - ncdu
     - name: install software on centos
       when: ansible_distribution == 'CentOS'
       become: true
@@ -28,6 +29,7 @@
           - git
           - sysstat
           - nmon
+          - ncdu
 
     - name: fzf download
       git:
